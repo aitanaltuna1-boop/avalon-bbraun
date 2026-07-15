@@ -126,7 +126,7 @@ function Hero({ onEnter }: { onEnter: () => void }) {
           className="font-display text-7xl font-black leading-none tracking-tight sm:text-8xl md:text-[10rem]"
           style={{ animation: "fade-up 1s cubic-bezier(0.2,0.8,0.2,1) both" }}
         >
-          <span className="gold-text animate-flicker">ÁVALON</span>
+          <span className="gold-text animate-flicker">AVALON</span>
         </h1>
         <p
           className="mx-auto mt-8 max-w-2xl font-display text-xl italic text-parchment/80 md:text-2xl"
@@ -172,7 +172,7 @@ function Nav({ active }: { active: SectionId }) {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="font-display text-lg font-bold tracking-widest gold-text"
         >
-          ÁVALON
+          AVALON
         </button>
         <ul className="flex flex-wrap items-center gap-1 md:gap-2">
           {SECTIONS.map((s) => {
@@ -319,7 +319,7 @@ function Contexto() {
       <figure className="mx-auto my-12 w-full max-w-5xl">
         <img
           src="/mesa-redonda-avalon.jpeg"
-          alt="La Mesa Redonda de Ávalon"
+          alt="La Mesa Redonda de Avalon"
           className="w-full rounded-sm border border-gold/30 shadow-2xl shadow-black/60"
         />
       </figure>
@@ -383,7 +383,7 @@ function Identidades() {
         />
         <img
           src="/banner-coronas.png"
-          alt="Estandarte con tres coronas de Ávalon"
+          alt="Estandarte con tres coronas de Avalon"
           className="mx-auto w-40 md:w-56 lg:w-64 drop-shadow-[0_10px_30px_rgba(0,0,0,0.7)]"
           loading="lazy"
         />
