@@ -318,7 +318,7 @@ function Contexto() {
       </Scroll>
       <figure className="mx-auto my-12 w-full max-w-5xl">
         <img
-          src={mesa-redonda-avalon.jpeg}
+          src="/mesa-redonda-avalon.jpeg"
           alt="La Mesa Redonda de Ávalon"
           className="w-full rounded-sm border border-gold/30 shadow-2xl shadow-black/60"
         />
@@ -382,7 +382,7 @@ function Identidades() {
           subtitle="Al inicio de la partida, cada jugador recibe una identidad. NO reveles tu carta ni hagas alusiones directas al personaje."
         />
         <img
-          src={banner-coronas.png}
+          src="/banner-coronas.png"
           alt="Estandarte con tres coronas de Ávalon"
           className="mx-auto w-40 md:w-56 lg:w-64 drop-shadow-[0_10px_30px_rgba(0,0,0,0.7)]"
           loading="lazy"
